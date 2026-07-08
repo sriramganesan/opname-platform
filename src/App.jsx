@@ -5,7 +5,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 
 // ─── Supabase client (inline, no npm needed in artifact) ──────────────────
-const SUPABASE_URL = "https://lhssdumxoozytodwffeq.supabase.co";
+const SUPABASE_URL = "https://mwcduamxyjhyvkovhdcy.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im13Y2R1YW14eWpoeXZrb3ZoZGN5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMxMDUzNTYsImV4cCI6MjA5ODY4MTM1Nn0.r0WYkwow7xBgnGqVVzYTZSTkuGKEIaowcQBXppb8Gjc";
 
 // Lightweight Supabase REST helper (no SDK dependency)
