@@ -906,7 +906,7 @@ function Header({ user, step, setStep, unlocked, lang, setLang, onSignOut, onAdm
           ))}
         </div>
         {/* Admin button — only show for Priya's email */}
-        {user?.email === "sriram.ganesan@YOUR_EMAIL.com" ? (
+        {user?.email === "sri0429.ganesan@gmail.com" ? (
           <button onClick={onAdmin} style={{ ...btnSecondary, padding: "7px 12px", fontSize: 12 }}>Admin</button>
         ) : null}
         <button onClick={onSignOut} style={{ ...btnSecondary, padding: "7px 12px", fontSize: 12 }}>
